@@ -27,8 +27,8 @@ Ensure you have the following tools installed before setting up the project:
 
 First, clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name`
+git clone https://github.com/Ananya-Tripathi/admin-dashboard-RBAC.git
+cd admin-dashboard-RBAC`
 ```
 ## Install Dependencies
 ```
