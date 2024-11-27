@@ -1,74 +1,74 @@
-<<<<<<< HEAD
-# admin-dashnoard-RBAC
-=======
-# Getting Started with Create React App
+# Admin Dashboard - User Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an **Admin Dashboard** built with **React**, **Firebase**, and **Firestore**. It allows users to manage users, roles, and permissions. The app lets you **add**, **edit**, and **delete** users, assign them **roles** (Admin, Editor, Viewer), and set **permissions** (Read, Write, Delete).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add, Edit, Delete Users**: Manage users with roles and permissions.
+- **Role Management**: Assign roles such as Admin, Editor, and Viewer.
+- **Permissions**: Control user permissions (Read, Write, Delete).
+- **Firebase Integration**: Data storage using Firestore, real-time updates.
+- **Authentication**: Firebase Authentication for secure login.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ensure you have the following tools installed before setting up the project:
 
-### `npm test`
+- **Node.js**: [Download Node.js](https://nodejs.org/)
+- **Firebase Account**: [Create a Firebase project](https://console.firebase.google.com/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First, clone the repository to your local machine:
+```
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name`
+```
+## Install Dependencies
+```
+npm install
+```
+## Set up Firebase:
+1.Create a Firebase project at Firebase Console.
+2.In the Firebase project, enable Firestore and Authentication (Email/Password).
+3.Add your Firebase config to firebaseConfig.js (replace the placeholder values with your actual Firebase credentials).
+```
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
+};
+```
+## Start the development server:
+```
+npm start
+```
+## Usage
+Admin Panel:
+Admin users can manage users, roles, and permissions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add/Manage Users:
+Users can be added, edited, and deleted. Admin can assign roles like Admin, Editor, and Viewer.
 
-### `npm run eject`
+Role and Permission Management:
+Admin can assign permissions (Read, Write, Delete) to roles. Users are associated with roles.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/user-attachments/assets/7315981b-db46-4e69-9c41-a50d7bda5a04)
+![image](https://github.com/user-attachments/assets/10e341df-6d66-4722-82c4-4a9c4fde20c1)
+![image](https://github.com/user-attachments/assets/5cc72789-0e63-4737-a1e0-78de6abb7445)
+![image](https://github.com/user-attachments/assets/3ba7390a-43e8-4773-8304-c832001b85db)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> a8ba056 (Initial commit with necessary files)
